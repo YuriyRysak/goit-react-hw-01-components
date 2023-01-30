@@ -1,13 +1,13 @@
-.transactionHistoryTable {
+.transactionHistory {
     margin: 5vh auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.5rem;
   }
-  .headersRow {
+  .head_row {
     font-size: 1.5rem;
     text-align: center;
   }
-  .columnHeader {
+  .header_column {
     width: 30%;
     padding: 1rem 5rem;
     background-color: #02bbd7;
@@ -17,20 +17,20 @@
     text-align: center;
   }
   
-  .columnHeader:first-child {
+  .header_column:first-child {
     border-radius: 0.5rem 0 0 0;
   }
-  .columnHeader:last-child {
+  .header_column:last-child {
     border-radius: 0 0.5rem 0 0;
   }
-  .valuesRow:last-child .transactionData:first-child {
+  .values_row:last-child .data_transaction:first-child {
     border-radius: 0 0 0 0.5rem;
   }
-  .valuesRow:last-child .transactionData:last-child {
+  .values_row:last-child .data_transaction:last-child {
     border-radius: 0 0 0.5rem 0;
   }
   
-  .valuesRow {
+  .values_row {
     width: 33%;
     color: #8a8b8e;
     font-size: 2rem;
@@ -38,7 +38,7 @@
     text-transform: capitalize;
   }
   
-  .valuesRow:nth-child(even) {
+  .values_row:nth-child(even) {
     background-color: #f2f2f2;
   }
   
